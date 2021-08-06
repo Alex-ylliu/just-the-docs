@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: The Pan Lab
 description: Artificial Intelligence, Supercomputing, and Big -Omics Data
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "lab" # the subpath of your site, e.g. /blog
 url: "https://alex-ylliu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
@@ -65,7 +65,7 @@ heading_anchors: true
 # Aux links for the upper right navigation
 aux_links:
   "Just the Docs on GitHub":
-    - "//github.com/Alex-ylliu/just-the-docs"
+    - "//github.com/Alex-ylliu/theLabSite"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
