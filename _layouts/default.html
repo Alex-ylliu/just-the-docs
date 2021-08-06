@@ -48,9 +48,9 @@ layout: table_wrappers
       </a>
     </div>
     <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
-      {% if site./.collections %}
-        {% assign collections_size = site./.collections | size %}
-        {% for collection_entry in site./.collections %}
+      {% if site.lab.collections %}
+        {% assign collections_size = site.lab.collections | size %}
+        {% for collection_entry in site.lab.collections %}
           {% assign collection_key = collection_entry[0] %}
           {% assign collection_value = collection_entry[1] %}
           {% assign collection = site[collection_key] %}
